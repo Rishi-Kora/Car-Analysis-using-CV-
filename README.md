@@ -103,7 +103,6 @@ In `train_car_make.py`:
 ## Dataset
 
 - **Source:** http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html
-- The car make is the first number in each photo's path (for example, `78/1/2010/xyz.jpg` means make `78`). Make names are in `misc/make_model_name.mat`.
 
 ## Known limitations
 
