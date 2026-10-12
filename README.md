@@ -2,8 +2,6 @@
 
 A beginner-friendly computer vision project. It trains a model to look at a car photo and guess the car make (for example, Audi, Toyota, or BMW).
 
-> **Licence:** The CompCars dataset is for **non-commercial research only**. Do not use the trained model or the dataset in a paid or commercial product. Read the official CompCars terms before using it.
-
 ## What it does
 
 - Trains an image classifier on car photos from the CompCars dataset.
@@ -104,11 +102,7 @@ In `train_car_make.py`:
 
 ## Dataset
 
-- **Name:** CompCars (Comprehensive Cars)
 - **Source:** http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html
-- **Citation:** Linjie Yang, Ping Luo, Chen Change Loy, Xiaoou Tang. "A Large-Scale Car Dataset for Fine-Grained Categorization and Verification", CVPR 2015.
-- Some files are password-protected. Get the password and instructions from the official site.
-- Training uses the official lists `train_test_split/classification/train.txt` and `test.txt`.
 - The car make is the first number in each photo's path (for example, `78/1/2010/xyz.jpg` means make `78`). Make names are in `misc/make_model_name.mat`.
 
 ## Known limitations
